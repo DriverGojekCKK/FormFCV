@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Form FCC</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1 id="title">Contact Us Driver Gojek</h1>
+ <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+   <label for="name" id="name-label">nama</label>
+   <input type="text" name="nama" id="name" placeholder="Enter Your Name" required>
+   
+  <label for="email" id="email-label">email</label>
+  <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+
+  <label for="number" id="number-label">Age(opsi) </label>
+  <input type="number" name="number" id="number" placeholder="How Old Are You? " min="12" max="50" required>
+
+  <label for="dropdown">Which option best describes your current role?</label>
+  <select id ="dropdown" required>
+  <option value="Select-current-Role">Select Current Role</option>
+  <option value="Student" >Student</option>
+  <option value="Full-Time-Job">Full Time Job</option>
+</select>
+
+  <label for="pilihan">Tahun Berapa Daftar Gojek :</label>
+  <input type="radio" id="member" name="member" value="member" checked>2016 <br>
+  <input type="radio" id="member" name="member" value="member" >2017 <br>
+  <input type="radio" id="member" name="member" value="member" >2018 <br>
+  <input type="radio" id="member" name="member" value="member" >2019 <br> <br>
+
+  <label for="pilihan">Yang Anda Sukai App Gojek :</label>
+  <input type="checkbox" id="pilihan" value="pilihan">Orderan Lancar?  <br>
+  <input type="checkbox" id="pilihan" value="pilihan2">Penghasilan Besar <br>
+  <input type="checkbox" id="pilihan" value="pilihan3">Jarang Ada Bug <br>
+  <input type="checkbox" id="pilihan" value="pilihan4">Tidak Ad Di Pilihan Atas <br>
+
+
+   <br><br>
+  <label for="comment" id="textarea-label">Tuliskan Masukan Di Bawah</label>
+  <textarea id="comment"required></textarea>
+  
+  <button type="submit" id="submit" > Submit</button>
+
+  </form>
+
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
